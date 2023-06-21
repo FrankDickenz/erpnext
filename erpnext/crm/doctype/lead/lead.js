@@ -13,6 +13,7 @@ erpnext.LeadController = class LeadController extends frappe.ui.form.Controller 
 		};
 
 		// For avoiding integration issues.
+		// For avoiding integration issues.
 		this.frm.set_df_property('first_name', 'reqd', true);
 	}
 
