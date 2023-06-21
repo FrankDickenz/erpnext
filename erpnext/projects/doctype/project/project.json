@@ -165,43 +165,60 @@
    "collapsible": 1,
    "fieldname": "customer_details",
    "fieldtype": "Section Break",
+   "hidden": 1,
    "label": "Customer Details",
    "oldfieldtype": "Section Break",
-   "options": "fa fa-user"
+   "options": "fa fa-user",
+   "print_hide": 1,
+   "report_hide": 1
   },
   {
    "fieldname": "customer",
    "fieldtype": "Link",
+   "hidden": 1,
    "in_global_search": 1,
    "label": "Customer",
    "oldfieldname": "customer",
    "oldfieldtype": "Link",
    "options": "Customer",
    "print_hide": 1,
+   "report_hide": 1,
    "search_index": 1
   },
   {
    "fieldname": "column_break_14",
-   "fieldtype": "Column Break"
+   "fieldtype": "Column Break",
+   "hidden": 1,
+   "print_hide": 1,
+   "report_hide": 1
   },
   {
    "fieldname": "sales_order",
    "fieldtype": "Link",
+   "hidden": 1,
    "label": "Sales Order",
-   "options": "Sales Order"
+   "options": "Sales Order",
+   "print_hide": 1,
+   "report_hide": 1
   },
   {
    "collapsible": 1,
    "fieldname": "users_section",
    "fieldtype": "Section Break",
-   "label": "Users"
+   "hidden": 1,
+   "label": "Users",
+   "print_hide": 1,
+   "report_hide": 1
   },
   {
    "description": "Project will be accessible on the website to these users",
    "fieldname": "users",
    "fieldtype": "Table",
+   "hidden": 1,
    "label": "Users",
-   "options": "Project User"
+   "options": "Project User",
+   "print_hide": 1,
+   "report_hide": 1
   },
   {
    "fieldname": "copied_from",
@@ -275,55 +292,82 @@
   {
    "fieldname": "total_costing_amount",
    "fieldtype": "Currency",
+   "hidden": 1,
    "label": "Total Costing Amount (via Timesheets)",
-   "read_only": 1
+   "print_hide": 1,
+   "read_only": 1,
+   "report_hide": 1
   },
   {
    "fieldname": "total_purchase_cost",
    "fieldtype": "Currency",
+   "hidden": 1,
    "label": "Total Purchase Cost (via Purchase Invoice)",
-   "read_only": 1
+   "print_hide": 1,
+   "read_only": 1,
+   "report_hide": 1
   },
   {
    "fieldname": "company",
    "fieldtype": "Link",
+   "hidden": 1,
    "label": "Company",
    "options": "Company",
-   "remember_last_selected_value": 1
+   "print_hide": 1,
+   "remember_last_selected_value": 1,
+   "report_hide": 1
   },
   {
    "fieldname": "column_break_28",
-   "fieldtype": "Column Break"
+   "fieldtype": "Column Break",
+   "hidden": 1,
+   "print_hide": 1,
+   "report_hide": 1
   },
   {
    "fieldname": "total_sales_amount",
    "fieldtype": "Currency",
+   "hidden": 1,
    "label": "Total Sales Amount (via Sales Order)",
-   "read_only": 1
+   "print_hide": 1,
+   "read_only": 1,
+   "report_hide": 1
   },
   {
    "fieldname": "total_billable_amount",
    "fieldtype": "Currency",
+   "hidden": 1,
    "label": "Total Billable Amount (via Timesheets)",
-   "read_only": 1
+   "print_hide": 1,
+   "read_only": 1,
+   "report_hide": 1
   },
   {
    "fieldname": "total_billed_amount",
    "fieldtype": "Currency",
+   "hidden": 1,
    "label": "Total Billed Amount (via Sales Invoices)",
-   "read_only": 1
+   "print_hide": 1,
+   "read_only": 1,
+   "report_hide": 1
   },
   {
    "fieldname": "total_consumed_material_cost",
    "fieldtype": "Currency",
+   "hidden": 1,
    "label": "Total Consumed Material Cost  (via Stock Entry)",
-   "read_only": 1
+   "print_hide": 1,
+   "read_only": 1,
+   "report_hide": 1
   },
   {
    "fieldname": "cost_center",
    "fieldtype": "Link",
+   "hidden": 1,
    "label": "Default Cost Center",
-   "options": "Cost Center"
+   "options": "Cost Center",
+   "print_hide": 1,
+   "report_hide": 1
   },
   {
    "collapsible": 1,
@@ -446,12 +490,13 @@
    "set_only_once": 1
   }
  ],
+ "hide_toolbar": 1,
  "icon": "fa fa-puzzle-piece",
  "idx": 29,
  "index_web_pages_for_search": 1,
  "links": [],
  "max_attachments": 4,
- "modified": "2023-02-14 04:54:25.819620",
+ "modified": "2023-06-21 10:19:47.064923",
  "modified_by": "Administrator",
  "module": "Projects",
  "name": "Project",
@@ -488,7 +533,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "search_fields": "project_name,customer, status, priority, is_active",
  "show_name_in_global_search": 1,
  "sort_field": "modified",
