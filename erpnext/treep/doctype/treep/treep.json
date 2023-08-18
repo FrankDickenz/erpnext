@@ -1,0 +1,104 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{date_of_travel}",
+ "creation": "2023-06-22 10:43:46.090802",
+ "default_view": "Report",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "trip_scheduling_section",
+  "name1",
+  "section_break_kgn4g",
+  "date_of_travel",
+  "column_break_3m4ul",
+  "time_of_travel",
+  "section_break_am81d",
+  "pick_up",
+  "column_break_3lyq4",
+  "dropoff"
+ ],
+ "fields": [
+  {
+   "fieldname": "trip_scheduling_section",
+   "fieldtype": "Section Break",
+   "label": "TRIP SCHEDULING"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_kgn4g",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_3m4ul",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "time_of_travel",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Time Of Travel",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_am81d",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pick_up",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Pick Up ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_3lyq4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dropoff",
+   "fieldtype": "Data",
+   "label": "Drop-Off",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_travel",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date Of Travel",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-22 16:24:45.038255",
+ "modified_by": "Administrator",
+ "module": "Treep",
+ "name": "Treep",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -621,7 +621,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-06-21 09:48:19.542567",
+ "modified": "2023-06-27 12:22:49.318447",
  "modified_by": "Administrator",
  "module": "Selling",
  "name": "Selling",
@@ -632,7 +632,7 @@
  "quick_lists": [],
  "restrict_to_domain": "",
  "roles": [],
- "sequence_id": 5.0,
+ "sequence_id": 15.0,
  "shortcuts": [
   {
    "label": "Point of Sale",

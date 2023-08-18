@@ -324,7 +324,7 @@
    "fetch_from": "project.company",
    "fieldname": "company",
    "fieldtype": "Link",
-   "label": "Company",
+   "label": "Organization",
    "options": "Company",
    "remember_last_selected_value": 1
   },
@@ -390,7 +390,7 @@
  "is_tree": 1,
  "links": [],
  "max_attachments": 5,
- "modified": "2023-06-21 10:30:02.312602",
+ "modified": "2023-07-12 14:28:07.474192",
  "modified_by": "Administrator",
  "module": "Projects",
  "name": "Task",

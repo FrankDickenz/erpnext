@@ -708,17 +708,6 @@
    "options": "Barcode"
   },
   {
-   "allow_bulk_edit": 1,
-   "fieldname": "items",
-   "fieldtype": "Table",
-   "hide_days": 1,
-   "hide_seconds": 1,
-   "oldfieldname": "entries",
-   "oldfieldtype": "Table",
-   "options": "Sales Invoice Item",
-   "reqd": 1
-  },
-  {
    "fieldname": "pricing_rule_details",
    "fieldtype": "Section Break",
    "hide_days": 1,
@@ -2130,6 +2119,7 @@
    "read_only": 1
   },
   {
+   "default": "0",
    "depends_on": "allocate_advances_automatically",
    "description": "Advance payments allocated against orders will only be fetched",
    "fieldname": "only_include_allocated_payments",
@@ -2141,6 +2131,12 @@
    "fieldname": "use_company_roundoff_cost_center",
    "fieldtype": "Check",
    "label": "Use Company default Cost Center for Round off"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "options": "Sales Invoice Item",
+   "reqd": 1
   }
  ],
  "icon": "fa fa-file-text",
@@ -2153,7 +2149,7 @@
    "link_fieldname": "consolidated_invoice"
   }
  ],
- "modified": "2023-04-28 14:15:59.901154",
+ "modified": "2023-07-17 16:17:25.280682",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Sales Invoice",

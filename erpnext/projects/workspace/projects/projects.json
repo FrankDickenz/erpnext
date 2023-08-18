@@ -174,7 +174,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-06-21 10:35:14.863365",
+ "modified": "2023-06-27 12:22:51.660931",
  "modified_by": "Administrator",
  "module": "Projects",
  "name": "Projects",
@@ -198,7 +198,7 @@
  "quick_lists": [],
  "restrict_to_domain": "",
  "roles": [],
- "sequence_id": 10.0,
+ "sequence_id": 20.0,
  "shortcuts": [
   {
    "label": "Dashboard",
